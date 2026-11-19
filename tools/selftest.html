@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selbsttest – English Practice</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .pass { color: var(--correct); }
+    .fail { color: var(--wrong); font-weight: 700; }
+    #log li { font-family: var(--font-mono); font-size: .85rem; }
+    #sandbox { position: absolute; left: -9999px; top: 0; width: 800px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Selbsttest</h1>
+    <p>Diese Seite prüft automatisch alle Aufgaben: Jede Musterlösung muss als richtig erkannt werden, eine falsche Antwort als falsch. Außerdem wird die Antwortprüfung getestet.</p>
+    <p id="summary" role="status">Test läuft …</p>
+    <ul id="log"></ul>
+    <div id="sandbox" aria-hidden="true"></div>
+  </main>
+  <script type="module" src="selftest.js"></script>
+</body>
+</html>

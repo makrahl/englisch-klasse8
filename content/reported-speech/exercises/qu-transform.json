@@ -1,0 +1,80 @@
+{
+  "id": "qu-transform",
+  "title": "Report the questions",
+  "type": "transform",
+  "level": 2,
+  "rulesRef": "questions",
+  "instructions": "Write the questions in **reported speech**. The beginning is already there.",
+  "items": [
+    {
+      "id": 100,
+      "direct": "Mila to Sofia: \"Where is the nearest supermarket?\"",
+      "start": "Mila asked Sofia",
+      "answer": "Mila asked Sofia where the nearest supermarket was.",
+      "hint": "Question word **where** stays. Word order: *the nearest supermarket was*."
+    },
+    {
+      "id": 101,
+      "direct": "Diego to Mila: \"Do you like American football?\"",
+      "start": "Diego asked Mila",
+      "answer": "Diego asked Mila [if|whether] she liked American football.",
+      "hint": "Yes/no question → **if / whether**. No *do*."
+    },
+    {
+      "id": 102,
+      "direct": "Tyler: \"What time does the bus leave?\"",
+      "start": "Tyler wanted to know",
+      "answer": "Tyler wanted to know what time the bus left.",
+      "hint": "*does … leave* → **left**"
+    },
+    {
+      "id": 103,
+      "direct": "Mrs Moreno to Mila: \"Are you homesick?\"",
+      "start": "Mrs Moreno asked Mila",
+      "answer": "Mrs Moreno asked Mila [if|whether] she was homesick.",
+      "hint": "Yes/no question → **if / whether**. are → was"
+    },
+    {
+      "id": 104,
+      "direct": "Aisha to Mila: \"Why did you choose Lakeview High?\"",
+      "start": "Aisha asked Mila",
+      "answer": "Aisha asked Mila why she had chosen Lakeview High.",
+      "hint": "*did … choose* → **had chosen**"
+    },
+    {
+      "id": 105,
+      "direct": "Sofia to Diego: \"Have you seen my phone?\"",
+      "start": "Sofia asked Diego",
+      "answer": "Sofia asked Diego [if|whether] he had seen her phone.",
+      "hint": "have seen → had seen, my → her"
+    },
+    {
+      "id": 106,
+      "direct": "Mr Okafor to Mila: \"Which subjects are you taking?\"",
+      "start": "Mr Okafor asked Mila",
+      "answer": "Mr Okafor asked Mila which subjects she was taking.",
+      "hint": "are you taking → **she was taking**"
+    },
+    {
+      "id": 107,
+      "direct": "Mila to Tyler: \"Will you come to the party?\"",
+      "start": "Mila asked Tyler",
+      "answer": "Mila asked Tyler [if|whether] he would come to the party.",
+      "hint": "will → would"
+    },
+    {
+      "id": 108,
+      "direct": "Diego to Mila: \"How long are you going to stay in the USA?\"",
+      "start": "Diego wanted to know",
+      "answer": "Diego wanted to know how long [Mila|she] was going to stay in the USA.",
+      "hint": "are you going to → **she was going to**"
+    },
+    {
+      "id": 109,
+      "direct": "Coach Brooks to the team: \"Can you all come on Saturday?\"",
+      "start": "Coach Brooks asked the team",
+      "answer": "Coach Brooks asked the team [if|whether] [they could all|they all could|they could] come on Saturday.",
+      "hint": "Yes/no question. can → could, you → they"
+    }
+  ]
+}

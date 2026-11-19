@@ -1,0 +1,65 @@
+{
+  "id": "qu-open",
+  "title": "Write a report: questions and answers",
+  "type": "open-text",
+  "level": 3,
+  "rulesRef": "questions",
+  "instructions": "Turn the conversation into a report. Report the **questions** and the **answers**. Then check your text with the checklist and compare it with the model answer.",
+  "items": [
+    {
+      "id": 126,
+      "sourceTitle": "Interview for the school newspaper",
+      "source": [
+        "Tyler: Where are you from, Mila?",
+        "Mila: I'm from Ulm, a city in the south of Germany.",
+        "Tyler: Why did you decide to come to Lakeview?",
+        "Mila: I wanted to improve my English.",
+        "Tyler: What do you like most about our school?",
+        "Mila: The clubs! I joined the photography club last week.",
+        "Tyler: Is there anything you don't like?",
+        "Mila: School starts very early. I'm always tired in the morning.",
+        "Tyler: Will you come back one day?",
+        "Mila: Yes, I'm going to visit my host family next summer."
+      ],
+      "task": "Tyler interviewed Mila for the school newspaper. Write his article for the newspaper's website. Report his questions and Mila's answers.",
+      "start": "Our reporter Tyler asked Mila",
+      "minWords": 80,
+      "checklist": [
+        "I reported questions with a question word with that **question word** (*where, why, what …*).",
+        "I reported yes/no questions with **if** or **whether**.",
+        "My reported questions have the word order of a statement – without *do / does / did* and without question marks.",
+        "I backshifted the tenses in the questions and in the answers.",
+        "I changed the pronouns (you → she, I → she, my → her …).",
+        "I changed the time expressions (last week → the week before, next summer → the following summer).",
+        "I used different reporting verbs (*asked, wanted to know, said, answered, told him* …)."
+      ],
+      "model": "Our reporter Tyler asked Mila where she was from. She said that she was from Ulm, a city in the south of Germany. Then he asked her why she had decided to come to Lakeview. Mila answered that she had wanted to improve her English.\nWhen Tyler asked her what she liked most about our school, she said that it was the clubs. She told him that she had joined the photography club the week before.\nHe also wanted to know if there was anything she didn't like. She said that school started very early and that she was always tired in the morning.\nFinally, he asked her whether she would come back one day. Mila said that she was going to visit her host family the following summer.",
+      "hint": "The newspaper is from the same school, so *our school* can stay."
+    },
+    {
+      "id": 127,
+      "sourceTitle": "Mila's first evening with the Morenos",
+      "source": [
+        "Mrs Moreno: How was your flight?",
+        "Mrs Moreno: Are you hungry?",
+        "Mrs Moreno: What do you usually eat for breakfast in Germany?",
+        "Mrs Moreno: Do you have any allergies?",
+        "Mrs Moreno: Can you swim? We often go to the lake.",
+        "Mrs Moreno: Would you like to call your parents now?"
+      ],
+      "task": "A few days later, Mila writes an email to her parents. She tells them about Mrs Moreno's questions. Write this part of Mila's email.",
+      "start": "On my first evening, Mrs Moreno asked me lots of questions. First she asked me",
+      "minWords": 50,
+      "checklist": [
+        "I reported the yes/no questions with **if** or **whether**.",
+        "I kept the question words (*how, what*).",
+        "My reported questions have the word order of a statement – without *do / does / did* and without question marks.",
+        "I backshifted the tenses (was → had been, are → was, do you eat → I ate, can → could …).",
+        "I changed the pronouns: Mila writes to her parents, so *your parents* becomes **you**.",
+        "I changed *now* to **then** (or left it out)."
+      ],
+      "model": "On my first evening, Mrs Moreno asked me lots of questions. First she asked me how my flight had been and if I was hungry. Then she wanted to know what I usually ate for breakfast in Germany and whether I had any allergies.\nShe also asked me if I could swim, because they often went to the lake. Finally, she asked me if I would like to call you then.",
+      "hint": "Mila is writing to her parents. So Mrs Moreno's *your parents* are *you* in the email."
+    }
+  ]
+}

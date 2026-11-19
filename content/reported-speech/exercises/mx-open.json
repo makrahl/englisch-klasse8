@@ -1,0 +1,37 @@
+{
+  "id": "mx-open",
+  "title": "Write a report: a phone call",
+  "type": "open-text",
+  "level": 3,
+  "rulesRef": "summary",
+  "instructions": "This conversation has statements, questions and commands. Turn it into a report. Then check your text with the checklist and compare it with the model answer.",
+  "items": [
+    {
+      "id": 179,
+      "sourceTitle": "A phone call from Ulm",
+      "source": [
+        "Jonas: Hi Mila! How are you?",
+        "Mila: I'm fine, thanks. I've just come back from a football game.",
+        "Jonas: Do you like American football?",
+        "Mila: Yes, I love it! Our team won yesterday.",
+        "Jonas: What are you doing at Thanksgiving?",
+        "Mila: The Morenos are going to visit their grandparents in Texas, and I'll go with them.",
+        "Jonas: Send me some photos!",
+        "Mila: Of course. And don't forget to say hello to everybody in class!"
+      ],
+      "task": "Jonas is Mila's friend from her class in Ulm. The next day, he tells his class about the phone call. Write his report in English.",
+      "start": "Yesterday I talked to Mila on the phone. I asked her",
+      "minWords": 80,
+      "checklist": [
+        "Statements: I used *said / told me* and backshifted the tenses.",
+        "Questions: I used the question word or *if / whether* and the word order of a statement.",
+        "Commands: I used *told / asked* + person + (*not*) *to* + infinitive.",
+        "I changed the pronouns and possessive determiners (I → she, our → their, me → him / me …).",
+        "I changed the time expressions (yesterday → the day before).",
+        "I didn't use quotation marks or question marks."
+      ],
+      "model": "Yesterday I talked to Mila on the phone. I asked her how she was. She said that she was fine and that she had just come back from a football game. I asked her if she liked American football. She told me that she loved it and that their team had won the day before.\nThen I wanted to know what she was doing at Thanksgiving. She said that the Morenos were going to visit their grandparents in Texas and that she would go with them.\nI told her to send me some photos. She said she would, and she told me not to forget to say hello to everybody in class.",
+      "hint": "Jonas is talking about himself: Mila's *you* → **I / me**, Jonas's *me* → **me**."
+    }
+  ]
+}

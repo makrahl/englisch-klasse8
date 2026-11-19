@@ -1,0 +1,76 @@
+{
+  "id": "co-mc",
+  "title": "tell or ask? to or not to?",
+  "type": "multiple-choice",
+  "level": 1,
+  "rulesRef": "commands",
+  "shuffle": true,
+  "instructions": "Choose the correct answer.",
+  "hint": "Command → **tell** sb **to** … · Request (please) → **ask** sb **to** … · negative → **not to**",
+  "items": [
+    {
+      "id": 128,
+      "direct": "Mrs Moreno: \"Mila, please help me with the dishes.\"",
+      "question": "Mrs Moreno ___ Mila to help her with the dishes.",
+      "options": ["asked", "told", "said"],
+      "answer": "asked",
+      "hint": "*please* → it's a **request** → **ask**"
+    },
+    {
+      "id": 129,
+      "direct": "Coach Brooks: \"Run three more laps!\"",
+      "question": "Coach Brooks ___ the team to run three more laps.",
+      "options": ["told", "asked", "said"],
+      "answer": "told",
+      "hint": "It's a **command** → **tell**"
+    },
+    {
+      "id": 130,
+      "direct": "Mr Okafor to Mila: \"Don't be late.\"",
+      "question": "Mr Okafor told Mila ___ late.",
+      "options": ["not to be", "don't be", "not be"],
+      "answer": "not to be",
+      "hint": "negative command → **not to** + infinitive"
+    },
+    {
+      "id": 131,
+      "direct": "Sofia to Diego: \"Please lend me your charger.\"",
+      "question": "Sofia asked Diego ___ her his charger.",
+      "options": ["to lend", "lend", "lending"],
+      "answer": "to lend",
+      "hint": "ask somebody **to** do something"
+    },
+    {
+      "id": 132,
+      "direct": "Ms Kim: \"Put your phones away!\"",
+      "question": "Ms Kim told the students ___ their phones away.",
+      "options": ["to put", "put", "that they put"],
+      "answer": "to put",
+      "hint": "tell somebody **to** do something"
+    },
+    {
+      "id": 133,
+      "direct": "Diego to Sofia: \"Don't touch my guitar!\"",
+      "question": "Diego told Sofia ___ his guitar.",
+      "options": ["not to touch", "don't touch", "to don't touch"],
+      "answer": "not to touch",
+      "hint": "*Don't …!* → **not to** …"
+    },
+    {
+      "id": 134,
+      "direct": "Mila to Tyler: \"Please call me later.\"",
+      "question": "Which sentence is correct?",
+      "options": ["Mila asked Tyler to call her later.", "Mila asked Tyler call her later.", "Mila said Tyler to call her later."],
+      "answer": "Mila asked Tyler to call her later.",
+      "hint": "ask + person + **to** + infinitive"
+    },
+    {
+      "id": 135,
+      "direct": "Mrs Moreno to Diego: \"Be home by ten o'clock!\"",
+      "question": "Mrs Moreno told Diego ___ by ten o'clock.",
+      "options": ["to be home", "be home", "he is home"],
+      "answer": "to be home",
+      "hint": "tell somebody **to** do something"
+    }
+  ]
+}

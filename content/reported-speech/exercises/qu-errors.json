@@ -1,0 +1,64 @@
+{
+  "id": "qu-errors",
+  "title": "Find the mistake: questions",
+  "type": "error-correction",
+  "level": 3,
+  "rulesRef": "questions",
+  "instructions": "Each reported question has **one** mistake – or no mistake at all. Find the wrong word and write the correct sentence.",
+  "items": [
+    {
+      "id": 118,
+      "sentence": "Tyler asked me where did I live.",
+      "errors": ["did"],
+      "answer": "Tyler asked me where I lived.",
+      "hint": "No *do / does / did* in reported questions."
+    },
+    {
+      "id": 119,
+      "sentence": "Aisha asked if Mila liked pizza.",
+      "errors": [],
+      "hint": "Yes/no question with *if* – is everything right?"
+    },
+    {
+      "id": 120,
+      "sentence": "Diego asked Mila that she wanted a drink.",
+      "errors": ["that"],
+      "answer": "Diego asked Mila [if|whether] she wanted a drink.",
+      "hint": "Yes/no questions are reported with … ?"
+    },
+    {
+      "id": 121,
+      "sentence": "Mrs Moreno wanted to know when was the bus leaving.",
+      "errors": ["was"],
+      "answer": "Mrs Moreno wanted to know when the bus was leaving.",
+      "hint": "Word order: subject before verb."
+    },
+    {
+      "id": 122,
+      "sentence": "Sofia asked me if I can help her.",
+      "errors": ["can"],
+      "answer": "Sofia asked me [if|whether] I could help her.",
+      "hint": "Check the backshift of the modal verb."
+    },
+    {
+      "id": 123,
+      "sentence": "Mr Okafor asked Mila whether she had finished her project.",
+      "errors": [],
+      "hint": "Check the word order and the tense."
+    },
+    {
+      "id": 124,
+      "sentence": "Tyler wanted to know why Mila is laughing.",
+      "errors": ["is"],
+      "answer": "Tyler wanted to know why Mila was laughing.",
+      "hint": "Check the backshift."
+    },
+    {
+      "id": 125,
+      "sentence": "Coach Brooks asked us if we will come early.",
+      "errors": ["will"],
+      "answer": "Coach Brooks asked us [if|whether] we would come early.",
+      "hint": "will → ?"
+    }
+  ]
+}

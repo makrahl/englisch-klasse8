@@ -1,0 +1,50 @@
+{
+  "id": "st-dialogue-gapfill",
+  "title": "Tell a friend about a conversation",
+  "type": "gapfill",
+  "level": 3,
+  "rulesRef": "statements",
+  "display": "text",
+  "instructions": "Read the conversation in the library. The next day, Mila tells her friend Aisha about it. Complete Mila's report.",
+  "contextTitle": "In the school library",
+  "context": [
+    "Mila: Hi! I'm looking for a book about American history.",
+    "Mrs Patel: We have lots of history books. I'll show you where they are.",
+    "Mila: Great, thanks. I need it for a project.",
+    "Mrs Patel: You can borrow three books at a time.",
+    "Mila: Oh, I didn't know that.",
+    "Mrs Patel: But you must bring them back in two weeks."
+  ],
+  "items": [
+    {
+      "id": 62,
+      "text": "“Yesterday I went to the library. I told Mrs Patel that I {{was looking}} for a book about American history.",
+      "hint": "am looking → was looking"
+    },
+    {
+      "id": 63,
+      "text": "She said that they {{had}} lots of history books and that she {{would show}} me where they {{were}}.",
+      "hint": "have → had, will show → would show, are → were"
+    },
+    {
+      "id": 64,
+      "text": "I told her that I {{needed}} it for a project.",
+      "hint": "need → needed"
+    },
+    {
+      "id": 65,
+      "text": "Then she said that I {{could}} borrow three books at a time.",
+      "hint": "can → could"
+    },
+    {
+      "id": 66,
+      "text": "I said that I {{hadn't known|didn't know}} that.",
+      "hint": "didn't know (simple past) → hadn't known (past perfect)"
+    },
+    {
+      "id": 67,
+      "text": "But she told me that I {{had to}} bring them back in two weeks.”",
+      "hint": "must → had to"
+    }
+  ]
+}

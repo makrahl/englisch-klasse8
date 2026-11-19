@@ -1,0 +1,68 @@
+{
+  "id": "qu-type-mc",
+  "title": "Question word or if/whether?",
+  "type": "multiple-choice",
+  "level": 1,
+  "rulesRef": "questions",
+  "shuffle": true,
+  "instructions": "Does the question have a **question word**? Or is it a **yes/no question**? Choose the right word for the reported question.",
+  "hint": "Question word → keep it. Yes/no question → **if** or **whether**.",
+  "items": [
+    {
+      "id": 78,
+      "direct": "Mila: \"Where is the gym?\"",
+      "question": "Mila asked ___ the gym was.",
+      "options": ["where", "if", "that"],
+      "answer": "where"
+    },
+    {
+      "id": 79,
+      "direct": "Diego to Mila: \"Are you tired?\"",
+      "question": "Diego asked Mila ___ she was tired.",
+      "options": ["if", "what", "that"],
+      "answer": "if"
+    },
+    {
+      "id": 80,
+      "direct": "Sofia: \"Does Mila like pancakes?\"",
+      "question": "Sofia wanted to know ___ Mila liked pancakes.",
+      "options": ["whether", "why", "that"],
+      "answer": "whether"
+    },
+    {
+      "id": 81,
+      "direct": "Aisha to Tyler: \"Why are you laughing?\"",
+      "question": "Aisha asked Tyler ___ he was laughing.",
+      "options": ["why", "if", "whether"],
+      "answer": "why"
+    },
+    {
+      "id": 82,
+      "direct": "Mrs Moreno to Mila: \"Have you called your parents?\"",
+      "question": "Mrs Moreno asked Mila ___ she had called her parents.",
+      "options": ["if", "when", "that"],
+      "answer": "if"
+    },
+    {
+      "id": 83,
+      "direct": "Tyler: \"When does the game start?\"",
+      "question": "Tyler wanted to know ___ the game started.",
+      "options": ["when", "if", "that"],
+      "answer": "when"
+    },
+    {
+      "id": 84,
+      "direct": "Mr Okafor to Mila: \"Which club would you like to join?\"",
+      "question": "Mr Okafor asked Mila ___ club she would like to join.",
+      "options": ["which", "if", "whether"],
+      "answer": "which"
+    },
+    {
+      "id": 85,
+      "direct": "Mila: \"Can I sit here?\"",
+      "question": "Mila asked ___ she could sit there.",
+      "options": ["if", "where", "that"],
+      "answer": "if"
+    }
+  ]
+}

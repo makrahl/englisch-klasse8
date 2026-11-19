@@ -1,0 +1,48 @@
+{
+  "id": "co-back",
+  "title": "What were the actual words?",
+  "type": "transform",
+  "level": 1,
+  "rulesRef": "commands",
+  "promptLabel": "reported",
+  "instructions": "Here you go the other way: what did the people **really** say? Write the **direct speech** (the imperative). You don't need quotation marks.",
+  "hint": "Start with the verb. *not to …* → **Don't …**",
+  "items": [
+    {
+      "id": 136,
+      "direct": "Diego told Mila not to worry.",
+      "answer": "Don't worry( Mila)!",
+      "hint": "not to worry → **Don't worry**"
+    },
+    {
+      "id": 137,
+      "direct": "Sofia told Mila to stay away from the old bridge.",
+      "answer": ["Stay away from the old bridge( Mila)!", "Mila stay away from the old bridge!"],
+      "hint": "to stay → **Stay**"
+    },
+    {
+      "id": 138,
+      "direct": "Mrs Moreno asked Mila to set the table.",
+      "answer": ["Please set the table( Mila).", "Set the table( please)( Mila).", "Mila (please )set the table( please).", "[Can|Could] you (please )set the table( please)( Mila)?"],
+      "hint": "*asked* → a request. You can use **please**."
+    },
+    {
+      "id": 139,
+      "direct": "Coach Brooks told the players not to give up.",
+      "answer": "Don't give up!",
+      "hint": "not to give up → **Don't give up**"
+    },
+    {
+      "id": 140,
+      "direct": "Ms Kim told the class to open their books at page 20.",
+      "answer": "Open your books [at|on] page [20|twenty]!",
+      "hint": "their books → **your** books"
+    },
+    {
+      "id": 141,
+      "direct": "Mr Okafor told Mila to come back the next day.",
+      "answer": ["Come back tomorrow( Mila)!", "Mila come back tomorrow!"],
+      "hint": "the next day → **tomorrow**"
+    }
+  ]
+}

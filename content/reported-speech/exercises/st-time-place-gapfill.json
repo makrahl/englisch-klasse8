@@ -1,0 +1,58 @@
+{
+  "id": "st-time-place-gapfill",
+  "title": "Time and place in sentences",
+  "type": "gapfill",
+  "level": 2,
+  "rulesRef": "time-place",
+  "instructions": "A week later, Sofia visits her grandma in another town. She tells her grandma what people said. Change the **time and place expressions**.",
+  "items": [
+    {
+      "id": 36,
+      "direct": "Diego: \"I'm going to the gym tomorrow.\"",
+      "text": "Diego said that he was going to the gym {{the next day|the following day}}.",
+      "hint": "tomorrow → the next day"
+    },
+    {
+      "id": 37,
+      "direct": "Mila: \"I called my parents yesterday.\"",
+      "text": "Mila said that she had called her parents {{the day before|the previous day}}.",
+      "hint": "yesterday → the day before"
+    },
+    {
+      "id": 38,
+      "direct": "Aisha: \"I'm really busy today.\"",
+      "text": "Aisha said that she was really busy {{that day}}.",
+      "hint": "today → that day"
+    },
+    {
+      "id": 39,
+      "direct": "Tyler (at the skate park): \"I meet my friends here every weekend.\"",
+      "text": "Tyler said that he met his friends {{there}} every weekend.",
+      "hint": "here → there (Sofia isn't at the skate park now)."
+    },
+    {
+      "id": 40,
+      "direct": "Mrs Moreno: \"We'll go camping next week.\"",
+      "text": "Mrs Moreno said that they would go camping {{the following week|the next week|the week after}}.",
+      "hint": "next week → the following week"
+    },
+    {
+      "id": 41,
+      "direct": "Mr Okafor: \"The school trip was three days ago.\"",
+      "text": "Mr Okafor said that the school trip had been {{three days before|three days earlier}}.",
+      "hint": "three days ago → three days before / earlier"
+    },
+    {
+      "id": 42,
+      "direct": "Sofia's friend: \"I moved to this town last year.\"",
+      "text": "Sofia's friend said that she had moved to {{that}} town {{the year before|the previous year}}.",
+      "hint": "this → that, last year → the year before"
+    },
+    {
+      "id": 43,
+      "direct": "Diego (at school): \"There is a concert here tonight.\"",
+      "text": "Diego said that there was a concert {{there}} {{that night|that evening}}.",
+      "hint": "here → there, tonight → that night"
+    }
+  ]
+}

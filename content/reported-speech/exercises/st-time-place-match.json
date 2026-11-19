@@ -1,0 +1,31 @@
+{
+  "id": "st-time-place-match",
+  "title": "Time and place: match the expressions",
+  "type": "match",
+  "level": 2,
+  "rulesRef": "time-place",
+  "instructions": "You report what somebody said **a few days later** and **somewhere else**. How do the time and place expressions change?",
+  "hint": "Look at the table of time and place expressions in the rules.",
+  "items": [
+    {
+      "id": 34,
+      "pairs": [
+        ["here", "there"],
+        ["today", "that day"],
+        ["tomorrow", "the next day"],
+        ["yesterday", "the day before"],
+        ["now", "then"]
+      ]
+    },
+    {
+      "id": 35,
+      "pairs": [
+        ["next week", "the following week"],
+        ["last year", "the year before"],
+        ["two days ago", "two days earlier"],
+        ["tonight", "that night"],
+        ["this morning", "that morning"]
+      ]
+    }
+  ]
+}

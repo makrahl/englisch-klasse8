@@ -1,0 +1,60 @@
+{
+  "id": "qu-wordorder-mc",
+  "title": "Word order in reported questions",
+  "type": "multiple-choice",
+  "level": 1,
+  "rulesRef": "word-order",
+  "shuffle": true,
+  "instructions": "Which reported question is correct?",
+  "hint": "Word order like in a statement: **subject + verb**. No *do / does / did*, no question mark.",
+  "items": [
+    {
+      "id": 86,
+      "direct": "Tyler to Mila: \"Where do you live?\"",
+      "options": ["Tyler asked Mila where did she live.", "Tyler asked Mila where she lived.", "Tyler asked Mila where she lives?"],
+      "answer": "Tyler asked Mila where she lived."
+    },
+    {
+      "id": 87,
+      "direct": "Mila: \"What time is it?\"",
+      "options": ["Mila asked what time it was.", "Mila asked what time was it.", "Mila asked what time is it."],
+      "answer": "Mila asked what time it was."
+    },
+    {
+      "id": 88,
+      "direct": "Aisha: \"Is Diego at home?\"",
+      "options": ["Aisha asked if was Diego at home.", "Aisha asked if Diego was at home.", "Aisha asked that Diego was at home."],
+      "answer": "Aisha asked if Diego was at home."
+    },
+    {
+      "id": 89,
+      "direct": "Sofia to Mila: \"Did you enjoy the party?\"",
+      "options": ["Sofia asked Mila if she had enjoyed the party.", "Sofia asked Mila did she enjoy the party.", "Sofia asked Mila if she did enjoyed the party."],
+      "answer": "Sofia asked Mila if she had enjoyed the party."
+    },
+    {
+      "id": 90,
+      "direct": "Mila to Sofia: \"How old is your brother?\"",
+      "options": ["Mila asked Sofia how old was her brother.", "Mila asked Sofia how old her brother was.", "Mila asked Sofia how old is her brother?"],
+      "answer": "Mila asked Sofia how old her brother was."
+    },
+    {
+      "id": 91,
+      "direct": "Coach Brooks to Tyler: \"Why didn't you come to practice?\"",
+      "options": ["Coach Brooks asked Tyler why he hadn't come to practice.", "Coach Brooks asked Tyler why didn't he come to practice.", "Coach Brooks asked Tyler why he didn't came to practice."],
+      "answer": "Coach Brooks asked Tyler why he hadn't come to practice."
+    },
+    {
+      "id": 92,
+      "direct": "Diego to Mila: \"Will you be at the game?\"",
+      "options": ["Diego asked Mila if she would be at the game.", "Diego asked Mila if would she be at the game.", "Diego asked Mila will she be at the game."],
+      "answer": "Diego asked Mila if she would be at the game."
+    },
+    {
+      "id": 93,
+      "direct": "Mrs Moreno to Mila: \"What are you reading?\"",
+      "options": ["Mrs Moreno asked Mila what she was reading.", "Mrs Moreno asked Mila what was she reading.", "Mrs Moreno asked Mila what she is reading?"],
+      "answer": "Mrs Moreno asked Mila what she was reading."
+    }
+  ]
+}

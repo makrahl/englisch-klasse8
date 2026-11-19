@@ -1,0 +1,67 @@
+{
+  "id": "qu-perspective",
+  "title": "Questions: who is reporting?",
+  "type": "transform",
+  "level": 3,
+  "rulesRef": "pronouns",
+  "instructions": "Mila asked Sofia lots of questions about life at Lakeview High. Later, **Sofia** tells her friend Aisha what Mila asked her. Write Sofia's words. Change the pronouns where necessary.",
+  "hint": "Sofia is reporting: Mila's *you* means Sofia → **I / me / my**.",
+  "items": [
+    {
+      "id": 110,
+      "direct": "Mila to Sofia: \"Will you be at the football game?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me [if|whether] I would be at the football game.",
+      "hint": "you → I, will → would"
+    },
+    {
+      "id": 111,
+      "direct": "Mila to Sofia: \"Do you have a costume for Halloween?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me [if|whether] I had a costume for Halloween.",
+      "hint": "you → I, do you have → I had"
+    },
+    {
+      "id": 112,
+      "direct": "Mila to Sofia: \"What are you going to wear to the school dance?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me what I was going to wear to the school dance.",
+      "hint": "are you going to → I was going to"
+    },
+    {
+      "id": 113,
+      "direct": "Mila to Sofia: \"What happened at the school play last year?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me what had happened at the school play [the year before|the previous year].",
+      "hint": "*what* is the subject here, so the word order stays. happened → had happened, last year → the year before"
+    },
+    {
+      "id": 114,
+      "direct": "Mila to Sofia: \"Can I come to your piano lesson?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me [if|whether] she could come to my piano lesson.",
+      "hint": "I → she (Mila), your → my (Sofia's lesson), can → could"
+    },
+    {
+      "id": 115,
+      "direct": "Mila to Sofia: \"Why is your brother always so tired?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me why my brother was always so tired.",
+      "hint": "your → my, is → was"
+    },
+    {
+      "id": 116,
+      "direct": "Mila to Sofia: \"Where did you buy your boots?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me where I had bought my boots.",
+      "hint": "did you buy → I had bought, your → my"
+    },
+    {
+      "id": 117,
+      "direct": "Mila to Sofia: \"Have you ever been to Germany?\"",
+      "start": "Mila asked me",
+      "answer": "Mila asked me [if|whether] I had ever been to Germany.",
+      "hint": "have you been → I had been"
+    }
+  ]
+}

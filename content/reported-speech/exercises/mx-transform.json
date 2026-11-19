@@ -1,0 +1,94 @@
+{
+  "id": "mx-transform",
+  "title": "Aisha's party: everything mixed",
+  "type": "transform",
+  "level": 3,
+  "rulesRef": "summary",
+  "instructions": "Statements, questions, requests and commands: report what people said about Aisha's party. The beginning is already there.",
+  "items": [
+    {
+      "id": 167,
+      "direct": "Aisha to Mila: \"I'm having a party on Saturday.\"",
+      "start": "Aisha told Mila",
+      "answer": "Aisha told Mila (that) she was having a party on Saturday.",
+      "hint": "Statement: am having → was having"
+    },
+    {
+      "id": 168,
+      "direct": "Aisha to Mila: \"Can you come?\"",
+      "start": "Aisha asked Mila",
+      "answer": "Aisha asked Mila [if|whether] she could come.",
+      "hint": "Yes/no question → if / whether. can → could"
+    },
+    {
+      "id": 169,
+      "direct": "Aisha to Mila: \"Bring your camera!\"",
+      "start": "Aisha told Mila",
+      "answer": "Aisha told Mila to bring her camera.",
+      "hint": "Command → told … **to** …"
+    },
+    {
+      "id": 170,
+      "direct": "Mila to Mrs Moreno: \"Can I go to Aisha's party?\"",
+      "start": "Mila asked Mrs Moreno",
+      "answer": "Mila asked Mrs Moreno [if|whether] she could go to Aisha's party.",
+      "hint": "Yes/no question. I → she, can → could"
+    },
+    {
+      "id": 171,
+      "direct": "Mrs Moreno to Mila: \"Diego will drive you there.\"",
+      "start": "Mrs Moreno told Mila",
+      "answer": "Mrs Moreno told Mila (that) Diego would drive her there.",
+      "hint": "Statement: will → would, you → her"
+    },
+    {
+      "id": 172,
+      "direct": "Mrs Moreno to Mila: \"Don't stay too long.\"",
+      "start": "Mrs Moreno told Mila",
+      "answer": "Mrs Moreno told Mila not to stay too long.",
+      "hint": "Command: Don't → **not to**"
+    },
+    {
+      "id": 173,
+      "direct": "Diego to Mila: \"What time does the party start?\"",
+      "start": "Diego asked Mila",
+      "answer": "Diego asked Mila what time the party started.",
+      "hint": "Question word stays. *does … start* → **started**"
+    },
+    {
+      "id": 174,
+      "direct": "Mila: \"I have bought a present for Aisha.\"",
+      "start": "Mila said",
+      "answer": "Mila said (that) she had bought a present for Aisha.",
+      "hint": "Statement: have bought → had bought"
+    },
+    {
+      "id": 175,
+      "direct": "Tyler to Mila (at the party): \"Did you make the cake?\"",
+      "start": "Tyler asked Mila",
+      "answer": "Tyler asked Mila [if|whether] she had made the cake.",
+      "hint": "Yes/no question. *did … make* → **had made**"
+    },
+    {
+      "id": 176,
+      "direct": "Mila: \"Sofia and I baked it yesterday.\"",
+      "start": "Mila said",
+      "answer": "Mila said (that) [Sofia and she|she and Sofia] had baked it [the day before|the previous day].",
+      "hint": "I → she, baked → had baked, yesterday → the day before"
+    },
+    {
+      "id": 177,
+      "direct": "Aisha to her guests: \"Please take a piece of cake.\"",
+      "start": "Aisha asked her guests",
+      "answer": "Aisha asked her guests to take a piece of cake.",
+      "hint": "Request (please) → asked … **to** …"
+    },
+    {
+      "id": 178,
+      "direct": "Diego: \"We must leave now.\"",
+      "start": "Diego said",
+      "answer": "Diego said (that) they had to leave( then).",
+      "hint": "Statement: we → they, must → had to, now → then"
+    }
+  ]
+}

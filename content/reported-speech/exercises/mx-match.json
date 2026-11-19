@@ -1,0 +1,33 @@
+{
+  "id": "mx-match",
+  "title": "Direct or reported? Match the sentences",
+  "type": "match",
+  "level": 2,
+  "rulesRef": "summary",
+  "instructions": "Statement, question or command? Match each sentence in **direct speech** with the right sentence in **reported speech**.",
+  "hint": "Statement → *said*; yes/no question → *asked if*; command → *told … to*; request → *asked … to*.",
+  "items": [
+    {
+      "id": 165,
+      "prompt": "Aisha to Mila",
+      "pairs": [
+        ["\"I'm cold.\"", "She said she was cold."],
+        ["\"I was cold.\"", "She said she had been cold."],
+        ["\"Are you cold?\"", "She asked if I was cold."],
+        ["\"Close the window!\"", "She told me to close the window."],
+        ["\"Don't close the window!\"", "She told me not to close the window."]
+      ]
+    },
+    {
+      "id": 166,
+      "prompt": "Tyler to Diego",
+      "pairs": [
+        ["\"I'll call you.\"", "He said he would call me."],
+        ["\"I have called you.\"", "He said he had called me."],
+        ["\"Can you call me?\"", "He asked if I could call him."],
+        ["\"Please call me.\"", "He asked me to call him."],
+        ["\"Where do you live?\"", "He asked me where I lived."]
+      ]
+    }
+  ]
+}

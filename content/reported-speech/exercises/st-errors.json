@@ -1,0 +1,65 @@
+{
+  "id": "st-errors",
+  "title": "Find the mistake: statements",
+  "type": "error-correction",
+  "level": 3,
+  "rulesRef": "statements",
+  "instructions": "Each sentence has **one** mistake – or no mistake at all. Find the wrong word and write the correct sentence.",
+  "items": [
+    {
+      "id": 68,
+      "sentence": "Sofia said me that she was tired.",
+      "errors": ["said", "me"],
+      "answer": ["Sofia told me (that) she was tired.", "Sofia said to me (that) she was tired."],
+      "hint": "say or tell?"
+    },
+    {
+      "id": 69,
+      "sentence": "Diego said that he is going to the cinema the next day.",
+      "errors": ["is"],
+      "answer": "Diego said (that) he was going to the cinema the next day.",
+      "hint": "Check the backshift."
+    },
+    {
+      "id": 70,
+      "sentence": "Mila told that she had lost her key.",
+      "errors": ["told"],
+      "answer": ["Mila said (that) she had lost her key.", "Mila told [me|us|him|her|them] (that) she had lost her key."],
+      "hint": "*tell* needs a person after it."
+    },
+    {
+      "id": 71,
+      "sentence": "Tyler said that he had seen the film two days before.",
+      "errors": [],
+      "hint": "Check the tense and the time expression."
+    },
+    {
+      "id": 72,
+      "sentence": "Aisha told Mila that she will call her later.",
+      "errors": ["will"],
+      "answer": "Aisha told Mila (that) she would call her later.",
+      "hint": "will → ?"
+    },
+    {
+      "id": 73,
+      "sentence": "Mr Okafor told me that I must change my timetable.",
+      "errors": ["must"],
+      "answer": "Mr Okafor told me (that) I had to change my timetable.",
+      "hint": "Check the modal verb."
+    },
+    {
+      "id": 74,
+      "sentence": "Mila said that her parents have visited New York.",
+      "errors": ["have"],
+      "answer": "Mila said (that) her parents had visited New York.",
+      "hint": "present perfect → ?"
+    },
+    {
+      "id": 75,
+      "sentence": "Diego told us that he had finished his homework yesterday.",
+      "errors": ["yesterday"],
+      "answer": "Diego told us (that) he had finished his homework [the day before|the previous day].",
+      "hint": "Check the time expression."
+    }
+  ]
+}

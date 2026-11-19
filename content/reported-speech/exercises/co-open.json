@@ -1,0 +1,35 @@
+{
+  "id": "co-open",
+  "title": "Write a report: instructions",
+  "type": "open-text",
+  "level": 3,
+  "rulesRef": "commands",
+  "instructions": "Report the instructions in a short text. Then check your text with the checklist and compare it with the model answer.",
+  "items": [
+    {
+      "id": 164,
+      "sourceTitle": "Mila's first day at Lakeview High",
+      "source": [
+        "Mr Okafor: Come to my office before your first lesson.",
+        "Ms Kim: Please sit next to Aisha.",
+        "Coach Brooks: Don't forget your sports shoes tomorrow.",
+        "Aisha: Meet me at the cafeteria at lunch.",
+        "Mrs Moreno: Please call me when school is over.",
+        "Diego: Don't be late for the bus!"
+      ],
+      "task": "On her first day, everybody gave Mila instructions. In the evening, she tells her parents about it in a video call. Write what Mila says.",
+      "start": "On my first day, Mr Okafor told me",
+      "minWords": 50,
+      "checklist": [
+        "I used **tell** for commands and **ask** for requests (with *please*).",
+        "I used person + **to** + infinitive – and **not to** for *Don't …*.",
+        "I left out *please*.",
+        "I changed the pronouns and possessive determiners (your → my, me → him / her …).",
+        "I backshifted the other verbs in the sentence (is over → was over).",
+        "I changed the time expressions (tomorrow → the next day)."
+      ],
+      "model": "On my first day, Mr Okafor told me to come to his office before my first lesson. In science, Ms Kim asked me to sit next to Aisha. Coach Brooks told me not to forget my sports shoes the next day.\nAt lunchtime, Aisha told me to meet her at the cafeteria. Mrs Moreno asked me to call her when school was over, and Diego told me not to be late for the bus.",
+      "hint": "Mila is talking about herself: Mr Okafor's *your* → **my**, Aisha's *me* → **her**."
+    }
+  ]
+}

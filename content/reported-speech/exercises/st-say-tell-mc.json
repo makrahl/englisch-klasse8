@@ -1,0 +1,82 @@
+{
+  "id": "st-say-tell-mc",
+  "title": "say, tell and that",
+  "type": "multiple-choice",
+  "level": 1,
+  "rulesRef": "say-tell",
+  "shuffle": true,
+  "instructions": "Choose the correct answer.",
+  "items": [
+    {
+      "id": 14,
+      "question": "Mila ___ me that she was homesick.",
+      "options": ["said", "told", "asked"],
+      "answer": "told",
+      "hint": "There is a person after the gap (*me*): **tell** + person."
+    },
+    {
+      "id": 15,
+      "question": "Diego ___ that the game had started.",
+      "options": ["told", "said", "told to"],
+      "answer": "said",
+      "hint": "There is no person after the gap: use **say**."
+    },
+    {
+      "id": 16,
+      "question": "Aisha said ___ me that she was busy.",
+      "options": ["to", "(nothing)", "at"],
+      "answer": "to",
+      "hint": "**say** + **to** + person"
+    },
+    {
+      "id": 17,
+      "question": "Mrs Moreno told ___ that dinner was ready.",
+      "options": ["us", "to us", "that"],
+      "answer": "us",
+      "hint": "**tell** + person – without *to*."
+    },
+    {
+      "id": 18,
+      "question": "Which sentence is correct?",
+      "options": ["Tyler said me that he was late.", "Tyler told me that he was late.", "Tyler told that he was late."],
+      "answer": "Tyler told me that he was late.",
+      "hint": "*tell* always needs a person. *say* never has a person directly after it."
+    },
+    {
+      "id": 19,
+      "direct": "Sofia: \"I'm tired.\"",
+      "question": "Sofia says that she ___ tired.",
+      "options": ["is", "was", "had been"],
+      "answer": "is",
+      "hint": "Look at the reporting verb: *says* is in the **present** – so there is **no backshift**."
+    },
+    {
+      "id": 20,
+      "question": "Which word can you leave out? – *Tyler said that he was hungry.*",
+      "options": ["Tyler", "said", "that"],
+      "answer": "that",
+      "hint": "One word is optional in reported statements."
+    },
+    {
+      "id": 21,
+      "question": "My host mum ___ to me that I could stay up late.",
+      "options": ["said", "told", "asked"],
+      "answer": "said",
+      "hint": "Look at the word after the gap: **to** me."
+    },
+    {
+      "id": 22,
+      "question": "Which sentence is correct?",
+      "options": ["Sofia told to Mila that the bus was late.", "Sofia told Mila that the bus was late.", "Sofia said Mila that the bus was late."],
+      "answer": "Sofia told Mila that the bus was late.",
+      "hint": "**tell** + person (no *to*) – or **say to** + person."
+    },
+    {
+      "id": 23,
+      "question": "Mr Okafor ___ the class that the school trip was cancelled.",
+      "options": ["told", "said", "said to"],
+      "answer": "told",
+      "hint": "*the class* is the person (the people) you talk to."
+    }
+  ]
+}

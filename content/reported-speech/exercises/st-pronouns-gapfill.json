@@ -1,0 +1,70 @@
+{
+  "id": "st-pronouns-gapfill",
+  "title": "Pronouns and possessive determiners",
+  "type": "gapfill",
+  "level": 2,
+  "rulesRef": "pronouns",
+  "instructions": "Change the **pronouns** (*I, you, me …*) and **possessive determiners** (*my, your, our …*). Think: who is speaking to whom?",
+  "items": [
+    {
+      "id": 24,
+      "direct": "Mila: \"I love my new school.\"",
+      "text": "Mila said that {{she}} loved {{her}} new school.",
+      "hint": "I → she, my → her"
+    },
+    {
+      "id": 25,
+      "direct": "Diego: \"We lost our match.\"",
+      "text": "Diego said that {{they}} had lost {{their}} match.",
+      "hint": "we → they, our → their"
+    },
+    {
+      "id": 26,
+      "direct": "Tyler to Mila: \"I can lend you my bike.\"",
+      "text": "Tyler told Mila that {{he}} could lend {{her}} {{his}} bike.",
+      "hint": "I → he (Tyler), you → her (Mila), my → his"
+    },
+    {
+      "id": 27,
+      "direct": "Aisha to Sofia and Mila: \"I'll meet you at the mall.\"",
+      "text": "Aisha told Sofia and Mila that {{she}} would meet {{them}} at the mall.",
+      "hint": "*you* means Sofia **and** Mila here – two people."
+    },
+    {
+      "id": 28,
+      "direct": "Mrs Moreno to Diego: \"Your room is a mess.\"",
+      "text": "Mrs Moreno told Diego that {{his}} room was a mess.",
+      "hint": "your → his (Diego's room)"
+    },
+    {
+      "id": 29,
+      "direct": "Mila to Sofia: \"Your brother helped me.\"",
+      "text": "Mila told Sofia that {{her}} brother had helped {{her}}.",
+      "hint": "your → her (Sofia's brother), me → her (Mila)"
+    },
+    {
+      "id": 30,
+      "direct": "Sofia to her parents: \"Mila and I are going to bake a cake for you.\"",
+      "text": "Sofia told her parents that Mila and {{she}} were going to bake a cake for {{them}}.",
+      "hint": "I → she, you → them (the parents)"
+    },
+    {
+      "id": 31,
+      "direct": "Mr Okafor to Mila: \"I have checked your timetable.\"",
+      "text": "Mr Okafor told Mila that {{he}} had checked {{her}} timetable.",
+      "hint": "I → he, your → her"
+    },
+    {
+      "id": 32,
+      "direct": "Tyler: \"Diego called me yesterday.\"",
+      "text": "Tyler said that Diego had called {{him}} the day before.",
+      "hint": "me → him (Tyler)"
+    },
+    {
+      "id": 33,
+      "direct": "Aisha to you: \"I like your jacket.\"",
+      "text": "Aisha told me that {{she}} liked {{my}} jacket.",
+      "hint": "Now **you** report what Aisha said to you: your → **my**."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "st-verbs-gapfill",
+  "title": "Backshift: put in the verb",
+  "type": "gapfill",
+  "level": 1,
+  "rulesRef": "backshift",
+  "instructions": "Mila is an exchange student from Germany. She spends a year with the Moreno family and goes to Lakeview High School. Report what people said. Write the **verb form** in the gap.",
+  "items": [
+    {
+      "id": 4,
+      "direct": "Sofia: \"I like horror films.\"",
+      "text": "Sofia said that she {{liked}} horror films.",
+      "hint": "simple present → **simple past**"
+    },
+    {
+      "id": 5,
+      "direct": "Diego: \"I am working on my bike.\"",
+      "text": "Diego said that he {{was working}} on his bike.",
+      "hint": "present progressive → **past progressive** (was/were + -ing)"
+    },
+    {
+      "id": 6,
+      "direct": "Mila: \"I have lost my locker key.\"",
+      "text": "Mila said that she {{had lost}} her locker key.",
+      "hint": "present perfect → **past perfect** (had + past participle)"
+    },
+    {
+      "id": 7,
+      "direct": "Tyler: \"I missed the bus this morning.\"",
+      "text": "Tyler said that he {{had missed}} the bus that morning.",
+      "hint": "simple past → **past perfect**"
+    },
+    {
+      "id": 8,
+      "direct": "Aisha: \"I will help you with your project.\"",
+      "text": "Aisha told Mila that she {{would help}} her with her project.",
+      "hint": "will → **would**"
+    },
+    {
+      "id": 9,
+      "direct": "Mr Okafor: \"The new timetable is ready.\"",
+      "text": "Mr Okafor said that the new timetable {{was}} ready.",
+      "hint": "is → **was**"
+    },
+    {
+      "id": 10,
+      "direct": "Mrs Moreno: \"We are going to visit my sister.\"",
+      "text": "Mrs Moreno said that they {{were going to visit}} her sister.",
+      "hint": "are going to → **were going to**"
+    },
+    {
+      "id": 11,
+      "direct": "Mila: \"My parents have never been to the USA.\"",
+      "text": "Mila said that her parents {{had never been}} to the USA.",
+      "hint": "present perfect → past perfect. *never* stays between *had* and *been*."
+    },
+    {
+      "id": 12,
+      "direct": "Diego: \"Our team won the game.\"",
+      "text": "Diego said that their team {{had won}} the game.",
+      "hint": "simple past → **past perfect**"
+    },
+    {
+      "id": 13,
+      "direct": "Tyler: \"I don't understand the homework.\"",
+      "text": "Tyler said that he {{didn't understand}} the homework.",
+      "hint": "don't understand (simple present) → **didn't understand** (simple past)"
+    }
+  ]
+}

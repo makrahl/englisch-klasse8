@@ -1,0 +1,49 @@
+{
+  "id": "st-open",
+  "title": "Write a report: what did they say?",
+  "type": "open-text",
+  "level": 3,
+  "rulesRef": "statements",
+  "instructions": "Read the text and write a report in reported speech. Then check your text with the checklist and compare it with the model answer.",
+  "items": [
+    {
+      "id": 76,
+      "sourceTitle": "Mila at dinner",
+      "source": [
+        "Mila: School here is really different. In Germany we have lessons until one o'clock, but here I stay at school until three. I like the clubs a lot. Yesterday I joined the photography club. Tomorrow we are going to take photos at the lake. I have made a lot of new friends, and everybody has been really nice to me. I will send some photos to my parents."
+      ],
+      "task": "At dinner, Mila tells the Morenos about her first week. Two days later, Sofia tells her friend what Mila said. Write Sofia's report.",
+      "start": "Mila said that",
+      "minWords": 60,
+      "checklist": [
+        "I used reporting verbs like *said*, *told us*, *explained*.",
+        "I backshifted the tenses (is → was, have made → had made, will → would, are going to → were going to …).",
+        "I changed the pronouns and possessive determiners (I → she, my → her, we → they …).",
+        "I changed the time expressions (yesterday → the day before, tomorrow → the next day).",
+        "I didn't use quotation marks.",
+        "I connected my sentences with *and*, *but*, *also*, *then* …"
+      ],
+      "model": "Mila said that school here was really different. She explained that in Germany they had lessons until one o'clock, but that here she stayed at school until three.\nShe told us that she liked the clubs a lot and that she had joined the photography club the day before. She said that the next day they were going to take photos at the lake.\nShe also said that she had made a lot of new friends and that everybody had been really nice to her. Finally, she told us that she would send some photos to her parents.",
+      "hint": "Sofia goes to the same school, so *here* can stay *here*."
+    },
+    {
+      "id": 77,
+      "sourceTitle": "Tyler's voice message for Diego",
+      "source": [
+        "Tyler: Hi Diego, it's Tyler. I can't come to practice today because I'm sick. I went to the doctor this morning. I have to stay in bed for two days. My mum is going to bring my sports bag to school. I'll call you tomorrow."
+      ],
+      "task": "A week later, Diego tells Sofia about Tyler's message. Write Diego's report.",
+      "start": "Tyler left me a voice message. He said that",
+      "minWords": 45,
+      "checklist": [
+        "I backshifted the tenses (can't → couldn't, went → had gone, have to → had to, will → would …).",
+        "I changed the pronouns and possessive determiners (I → he, my → his, you → me).",
+        "I changed the time expressions (today → that day, this morning → that morning, tomorrow → the next day).",
+        "I used reporting verbs like *said*, *told me*, *explained*.",
+        "I didn't use quotation marks."
+      ],
+      "model": "Tyler left me a voice message. He said that he couldn't come to practice that day because he was sick. He explained that he had gone to the doctor that morning and that he had to stay in bed for two days.\nHe told me that his mum was going to bring his sports bag to school and that he would call me the next day.",
+      "hint": "Diego reports it a week later: today → that day, tomorrow → the next day."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "st-transform",
+  "title": "Report the statements",
+  "type": "transform",
+  "level": 2,
+  "rulesRef": "statements",
+  "instructions": "Write the whole sentence in **reported speech**. You report the sentences **a few days later**. The beginning is already there. Remember: backshift, pronouns, time and place.",
+  "items": [
+    {
+      "id": 52,
+      "direct": "Mila: \"I'm hungry.\"",
+      "start": "Mila said",
+      "answer": "Mila said (that) she was hungry.",
+      "hint": "I → she, am → was"
+    },
+    {
+      "id": 53,
+      "direct": "Diego: \"I've finished my homework.\"",
+      "start": "Diego said",
+      "answer": "Diego said (that) he had finished his homework.",
+      "hint": "present perfect → past perfect, my → his"
+    },
+    {
+      "id": 54,
+      "direct": "Aisha to Mila: \"I'm going to join the school band.\"",
+      "start": "Aisha told Mila",
+      "answer": "Aisha told Mila (that) she was going to join the school band.",
+      "hint": "am going to → was going to"
+    },
+    {
+      "id": 55,
+      "direct": "Tyler: \"I saw a great film on Saturday.\"",
+      "start": "Tyler said",
+      "answer": "Tyler said (that) he had seen a great film on Saturday.",
+      "hint": "saw (simple past) → had seen (past perfect)"
+    },
+    {
+      "id": 56,
+      "direct": "Mrs Moreno: \"Dinner will be ready in ten minutes.\"",
+      "start": "Mrs Moreno said",
+      "answer": "Mrs Moreno said (that) dinner would be ready in ten minutes.",
+      "hint": "will → would"
+    },
+    {
+      "id": 57,
+      "direct": "Sofia to Mila: \"You can borrow my jacket.\"",
+      "start": "Sofia told Mila",
+      "answer": "Sofia told Mila (that) she could borrow her jacket.",
+      "hint": "you → she (Mila), can → could, my → her (Sofia's jacket)"
+    },
+    {
+      "id": 58,
+      "direct": "Mr Okafor: \"The library is closed today.\"",
+      "start": "Mr Okafor said",
+      "answer": "Mr Okafor said (that) the library was closed that day.",
+      "hint": "is → was, today → that day"
+    },
+    {
+      "id": 59,
+      "direct": "Diego: \"We are practising for the big game.\"",
+      "start": "Diego said",
+      "answer": "Diego said (that) they were practising for the big game.",
+      "hint": "we → they, are practising → were practising"
+    },
+    {
+      "id": 60,
+      "direct": "Mila: \"My parents called me yesterday.\"",
+      "start": "Mila said",
+      "answer": "Mila said (that) her parents had called her [the day before|the previous day].",
+      "hint": "my → her, me → her, called → had called, yesterday → the day before"
+    },
+    {
+      "id": 61,
+      "direct": "Coach Brooks to the team: \"You must be at the field at seven o'clock tomorrow.\"",
+      "start": "Coach Brooks told the team",
+      "answer": "Coach Brooks told the team (that) they had to be at the field at seven o'clock [the next day|the following day].",
+      "hint": "you → they, must → had to, tomorrow → the next day"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "st-modals-gapfill",
+  "title": "can, must, may, will",
+  "type": "gapfill",
+  "level": 2,
+  "rulesRef": "backshift",
+  "instructions": "Report what people said. Be careful with the **modal verbs**.",
+  "hint": "can → could · must → had to · may → might · will → would",
+  "items": [
+    {
+      "id": 44,
+      "direct": "Mila: \"I can't find my phone.\"",
+      "text": "Mila said that she {{couldn't}} find her phone.",
+      "hint": "can't → **couldn't**"
+    },
+    {
+      "id": 45,
+      "direct": "Coach Brooks to Diego: \"You must run faster.\"",
+      "text": "Coach Brooks told Diego that he {{had to}} run faster.",
+      "hint": "must → **had to**"
+    },
+    {
+      "id": 46,
+      "direct": "Aisha: \"I may be late for practice.\"",
+      "text": "Aisha said that she {{might}} be late for practice.",
+      "hint": "may → **might**"
+    },
+    {
+      "id": 47,
+      "direct": "Mr Moreno to Mila: \"I will drive you to school.\"",
+      "text": "Mr Moreno told Mila that he {{would}} drive her to school.",
+      "hint": "will → **would**"
+    },
+    {
+      "id": 48,
+      "direct": "Sofia: \"We can watch a film tonight.\"",
+      "text": "Sofia said that they {{could}} watch a film {{that night|that evening}}.",
+      "hint": "can → could, tonight → that night"
+    },
+    {
+      "id": 49,
+      "direct": "Ms Kim to the class: \"You must hand in your projects on Friday.\"",
+      "text": "Ms Kim told the class that they {{had to}} hand in their projects on Friday.",
+      "hint": "must → **had to**"
+    },
+    {
+      "id": 50,
+      "direct": "Tyler: \"I won't tell anybody.\"",
+      "text": "Tyler promised that he {{wouldn't}} tell anybody.",
+      "hint": "won't (= will not) → **wouldn't** (= would not)"
+    },
+    {
+      "id": 51,
+      "direct": "Diego: \"Mila may use my laptop.\"",
+      "text": "Diego said that Mila {{might|could}} use his laptop.",
+      "hint": "may → **might**"
+    }
+  ]
+}

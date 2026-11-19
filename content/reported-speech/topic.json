@@ -1,0 +1,65 @@
+{
+  "id": "reported-speech",
+  "title": "Reported Speech",
+  "description": "How do you report what somebody **said**, **asked** or **told you to do**? Read the rules first, then practise step by step.",
+  "codePrefix": "RS",
+  "rules": "rules.md",
+  "rulesLang": "de",
+  "subtopics": [
+    {
+      "id": "statements",
+      "title": "1 Statements",
+      "description": "Backshift of tenses, pronouns, time and place expressions.",
+      "sets": [
+        "st-tenses-match",
+        "st-verbs-gapfill",
+        "st-say-tell-mc",
+        "st-pronouns-gapfill",
+        "st-time-place-match",
+        "st-time-place-gapfill",
+        "st-modals-gapfill",
+        "st-transform",
+        "st-dialogue-gapfill",
+        "st-errors",
+        "st-open"
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "2 Questions",
+      "description": "Questions with a question word and yes/no questions with *if* or *whether*.",
+      "sets": [
+        "qu-type-mc",
+        "qu-wordorder-mc",
+        "qu-wordbuild",
+        "qu-transform",
+        "qu-perspective",
+        "qu-errors",
+        "qu-open"
+      ]
+    },
+    {
+      "id": "commands",
+      "title": "3 Requests and commands",
+      "description": "*tell* / *ask* + person + (*not*) *to* + infinitive.",
+      "sets": [
+        "co-mc",
+        "co-back",
+        "co-transform",
+        "co-advice",
+        "co-errors",
+        "co-open"
+      ]
+    },
+    {
+      "id": "mixed",
+      "title": "4 Mixed practice",
+      "description": "Statements, questions and commands all together.",
+      "sets": [
+        "mx-match",
+        "mx-transform",
+        "mx-open"
+      ]
+    }
+  ]
+}

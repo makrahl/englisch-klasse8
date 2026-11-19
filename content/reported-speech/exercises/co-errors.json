@@ -1,0 +1,50 @@
+{
+  "id": "co-errors",
+  "title": "Find the mistake: requests and commands",
+  "type": "error-correction",
+  "level": 3,
+  "rulesRef": "commands",
+  "instructions": "Each sentence has **one** mistake – or no mistake at all. Find the wrong word and write the correct sentence.",
+  "items": [
+    {
+      "id": 158,
+      "sentence": "Mrs Moreno told Mila tidy her room.",
+      "errors": ["tidy"],
+      "answer": "Mrs Moreno told Mila to tidy her room.",
+      "hint": "tell somebody **?** do something"
+    },
+    {
+      "id": 159,
+      "sentence": "Diego told Sofia don't touch his laptop.",
+      "errors": ["don't"],
+      "answer": "Diego told Sofia not to touch his laptop.",
+      "hint": "How do you report *Don't …!*?"
+    },
+    {
+      "id": 160,
+      "sentence": "Coach Brooks said the team to warm up.",
+      "errors": ["said"],
+      "answer": "Coach Brooks told the team to warm up.",
+      "hint": "say or tell?"
+    },
+    {
+      "id": 161,
+      "sentence": "Mila asked Tyler to wait for her.",
+      "errors": [],
+      "hint": "ask + person + to + infinitive – is everything there?"
+    },
+    {
+      "id": 162,
+      "sentence": "Mr Okafor told Mila to coming to his office.",
+      "errors": ["coming"],
+      "answer": "Mr Okafor told Mila to come to his office.",
+      "hint": "After *to* you need the infinitive."
+    },
+    {
+      "id": 163,
+      "sentence": "Ms Kim told the students to switch off their phones.",
+      "errors": [],
+      "hint": "tell + person + to + infinitive – is everything there?"
+    }
+  ]
+}

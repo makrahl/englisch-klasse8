@@ -1,0 +1,54 @@
+{
+  "id": "co-advice",
+  "title": "Advice from home",
+  "type": "transform",
+  "level": 2,
+  "rulesRef": "commands",
+  "promptLabel": "none",
+  "instructions": "Before Mila left Germany, her mum gave her a lot of advice. Now Mila tells Sofia about it. Write Mila's sentences. Use **told me** or **asked me** + (**not**) **to** + infinitive.",
+  "hint": "Mila is talking: *you / your* in her mum's words → **me / my**.",
+  "items": [
+    {
+      "id": 152,
+      "direct": "Mum: \"Send us a message every day.\"",
+      "start": "My mum",
+      "answer": "My mum told me to send [them|her and my dad|my parents] a message every day.",
+      "hint": "us (Mila's parents) → **them**"
+    },
+    {
+      "id": 153,
+      "direct": "Mum: \"Don't spend all your money in the first week.\"",
+      "start": "My mum",
+      "answer": "My mum told me not to spend all my money in the first week.",
+      "hint": "Don't → **not to** · your → **my**"
+    },
+    {
+      "id": 154,
+      "direct": "Mum: \"Help your host family in the house.\"",
+      "start": "My mum",
+      "answer": "My mum told me to help my host family in the house.",
+      "hint": "your → **my**"
+    },
+    {
+      "id": 155,
+      "direct": "Mum: \"Don't stay up too late.\"",
+      "start": "My mum",
+      "answer": "My mum told me not to stay up too late.",
+      "hint": "Don't → **not to**"
+    },
+    {
+      "id": 156,
+      "direct": "Mum: \"Try lots of new things.\"",
+      "start": "My mum",
+      "answer": "My mum told me to try lots of new things.",
+      "hint": "told me **to** + infinitive"
+    },
+    {
+      "id": 157,
+      "direct": "Mum: \"Please call Grandpa on his birthday.\"",
+      "start": "My mum",
+      "answer": "My mum asked me to call [Grandpa|my grandpa] on his birthday.",
+      "hint": "please → **asked** me to …"
+    }
+  ]
+}

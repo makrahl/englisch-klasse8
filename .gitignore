@@ -1,0 +1,9 @@
+# Unterrichtsmaterial (urheberrechtlich geschützt) – wird NIE committet
+materialien/
+
+# Lokale Einstellungen von Claude Code / Editoren
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+__pycache__/

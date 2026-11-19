@@ -1,0 +1,47 @@
+{
+  "id": "qu-wordbuild",
+  "title": "Build the reported question",
+  "type": "word-order",
+  "level": 1,
+  "rulesRef": "word-order",
+  "instructions": "Put the words in the right order to make a reported question. Be careful: there is **one word too many** in each task.",
+  "hint": "Subject before verb – and no *do / does / did* or question form.",
+  "items": [
+    {
+      "id": 94,
+      "direct": "Mila: \"Where is the cafeteria?\"",
+      "answer": "Mila asked where the cafeteria was.",
+      "distractors": ["is"]
+    },
+    {
+      "id": 95,
+      "direct": "Tyler to Mila: \"Do you play soccer?\"",
+      "answer": ["Tyler asked Mila if she played soccer.", "Tyler asked Mila whether she played soccer."],
+      "distractors": ["do"]
+    },
+    {
+      "id": 96,
+      "direct": "Sofia to Mila: \"What did you do at the weekend?\"",
+      "answer": "Sofia asked Mila what she had done at the weekend.",
+      "distractors": ["did"]
+    },
+    {
+      "id": 97,
+      "direct": "Diego to Mila: \"Can you help me with my German homework?\"",
+      "answer": ["Diego asked Mila if she could help him with his German homework.", "Diego asked Mila whether she could help him with his German homework."],
+      "distractors": ["can"]
+    },
+    {
+      "id": 98,
+      "direct": "Mrs Moreno to Diego: \"When will you be home?\"",
+      "answer": "Mrs Moreno asked Diego when he would be home.",
+      "distractors": ["will"]
+    },
+    {
+      "id": 99,
+      "direct": "Mila to Aisha: \"Have you ever seen snow?\"",
+      "answer": ["Mila asked Aisha if she had ever seen snow.", "Mila asked Aisha whether she had ever seen snow."],
+      "distractors": ["have"]
+    }
+  ]
+}

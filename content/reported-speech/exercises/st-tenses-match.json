@@ -1,0 +1,45 @@
+{
+  "id": "st-tenses-match",
+  "title": "Backshift: match the tenses",
+  "type": "match",
+  "level": 1,
+  "rulesRef": "backshift",
+  "instructions": "How do the tenses change in reported speech? Match each form in **direct speech** with the right form in **reported speech**.",
+  "hint": "Look at the backshift table in the rules: every tense moves **one step back** into the past.",
+  "items": [
+    {
+      "id": 1,
+      "prompt": "Tenses (part 1)",
+      "pairs": [
+        ["simple present", "simple past"],
+        ["present progressive", "past progressive"],
+        ["simple past", "past perfect"],
+        ["present perfect", "past perfect"],
+        ["will", "would"]
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Tenses and modal verbs (part 2)",
+      "pairs": [
+        ["is / are going to", "was / were going to"],
+        ["can", "could"],
+        ["must", "had to"],
+        ["may", "might"],
+        ["past perfect", "past perfect"]
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "The verb *play*",
+      "pairs": [
+        ["play / plays", "played"],
+        ["am / is / are playing", "was / were playing"],
+        ["has / have played", "had played"],
+        ["played", "had played"],
+        ["will play", "would play"]
+      ],
+      "hint": "Two forms in direct speech become the same form in reported speech: **had played**."
+    }
+  ]
+}

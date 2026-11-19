@@ -1,0 +1,80 @@
+{
+  "id": "co-transform",
+  "title": "Report the requests and commands",
+  "type": "transform",
+  "level": 2,
+  "rulesRef": "commands",
+  "instructions": "Write the sentences in **reported speech**. Use **tell** (command) or **ask** (request, often with *please*) + person + (**not**) **to** + infinitive.",
+  "items": [
+    {
+      "id": 142,
+      "direct": "Mrs Moreno to Mila: \"Make your bed!\"",
+      "start": "Mrs Moreno",
+      "answer": "Mrs Moreno told Mila to make her bed.",
+      "hint": "command → **told** Mila **to** … · your → her"
+    },
+    {
+      "id": 143,
+      "direct": "Diego to Sofia: \"Don't eat my cookies!\"",
+      "start": "Diego",
+      "answer": "Diego told Sofia not to eat his cookies.",
+      "hint": "Don't … → **not to** … · my → his"
+    },
+    {
+      "id": 144,
+      "direct": "Mila to Aisha: \"Please send me the photos.\"",
+      "start": "Mila",
+      "answer": "Mila asked Aisha to send her the photos.",
+      "hint": "please → **asked** Aisha **to** … · me → her"
+    },
+    {
+      "id": 145,
+      "direct": "Coach Brooks to the players: \"Drink lots of water!\"",
+      "start": "Coach Brooks",
+      "answer": "Coach Brooks told the players to drink lots of water.",
+      "hint": "command → **told** the players **to** …"
+    },
+    {
+      "id": 146,
+      "direct": "Mr Okafor to Mila: \"Come back next week.\"",
+      "start": "Mr Okafor",
+      "answer": "Mr Okafor told Mila to come back [the following week|the next week|the week after].",
+      "hint": "next week → the following week"
+    },
+    {
+      "id": 147,
+      "direct": "Mrs Patel to the students: \"Please don't talk in the library.\"",
+      "start": "Mrs Patel",
+      "answer": "Mrs Patel asked the students not to talk in the library.",
+      "hint": "please → **ask** · don't → **not to**"
+    },
+    {
+      "id": 148,
+      "direct": "Sofia to Mila: \"Don't forget your umbrella!\"",
+      "start": "Sofia",
+      "answer": "Sofia told Mila not to forget her umbrella.",
+      "hint": "Don't … → **not to** … · your → her"
+    },
+    {
+      "id": 149,
+      "direct": "Mila's dad (on the phone): \"Write to your grandma!\"",
+      "start": "Mila's dad told her",
+      "answer": "Mila's dad told her to write to her grandma.",
+      "hint": "your → her"
+    },
+    {
+      "id": 150,
+      "direct": "Ms Kim to Tyler: \"Please be quiet.\"",
+      "start": "Ms Kim",
+      "answer": "Ms Kim asked Tyler to be quiet.",
+      "hint": "please → **ask** · be → **to be**"
+    },
+    {
+      "id": 151,
+      "direct": "Mila's mum to Mila: \"Take photos of everything you see!\"",
+      "start": "Mila's mum told her",
+      "answer": "Mila's mum told her to take photos of everything she saw.",
+      "hint": "The infinitive (*to take*) has no backshift – but the other verb does: you see → **she saw**."
+    }
+  ]
+}
