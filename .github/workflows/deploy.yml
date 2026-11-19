@@ -21,16 +21,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dateien holen
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Inhalte prüfen
         run: python3 tools/validate_content.py
 
       - name: Pages vorbereiten
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Seite hochladen
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: .
 
@@ -43,4 +43,4 @@ jobs:
     steps:
       - name: Veröffentlichen
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
